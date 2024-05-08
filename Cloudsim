@@ -1,0 +1,10 @@
+java -version
+ant -version
+
+javac -classpath jars/cloudsim-3.0.3.jar:examples examples/org/cloudbus/cloudsim/exmaples/CloudSimExample1.java
+
+java -classpath jars/cloudsim-3.0.3.jar:examples org.cloudbus.cloudsim.examples.CloudSimExample1
+
+javac -classpath jars/cloudsim-3.0.3.jar: examples/org/cloudbus/cloudsim/examples/power/Simulation.java
+
+java -classpath jars/cloudsim-3.0.3.jar: examples/org/cloudbus/cloudsim/examples/power/Simulation.java
